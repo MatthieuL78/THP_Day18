@@ -3,6 +3,21 @@
 * je-me-presente : Site statique.
 * Backend_website : Site comprenant du backend avec creation de compte et de page perso.
 
+## Lancer les projets
+Pour lancer les projets, sur le terminal (dans le dossier concerne) :
+```
+bundle
+```
+
+```
+rails db:migrate
+```
+
+```
+rails s
+```
+Puis observer les pages dans 'localhost:3000'
+
 ## je-me-presente
 Siteweb comprenant :
 * Liens entre des pages internes et externe
