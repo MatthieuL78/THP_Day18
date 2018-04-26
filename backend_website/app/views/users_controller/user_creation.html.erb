@@ -1,0 +1,10 @@
+<h1>Bienvenue dans la creation d'utilisateurs!</h1>
+<p>Le formulaire a remplir pour s'inscrire :</p>
+<form action='/creation' method='post'>
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	Votre pseudo: <br>
+	<input type='text' name='pseudo'><br><br>
+	Votre bio: <br>
+	<textarea name='biography' rows='10' cols='30'></textarea>
+	<input type="submit" value="S'inscrire">
+</form>
