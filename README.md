@@ -4,6 +4,8 @@
 * Backend_website : Site comprenant du backend avec creation de compte et de page perso.
 
 ## je-me-presente
+Siteweb comprenant :
+* Liens entre des pages internes et externe
 
 ## Backend_website
 Siteweb comprenant :
