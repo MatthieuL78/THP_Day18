@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
 
-  root 'static_pages#home'
+  root 'static_pages#home', as: :home
 
-  get 'contact' => 'static_pages#contact'
+  get 'contact', to: 'static_pages#contact', as: :contact
 
-  get 'about' => 'static_pages#about'
+  get 'about', to: 'static_pages#about', as: :about
 
-  get 'salut_c_est_moi' => 'static_pages#moi'
+  get 'salut_c_est_moi', to: 'static_pages#moi', as: :me
 
-  get 'bobby_crew' => 'static_pages#the_crew'
+  get 'bobby_crew', to: 'static_pages#the_crew', as: :crew
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
 
-  get 'red_alert' => 'users_controller#creation_issue'
+  get 'red_alert', to: 'users_controller#creation_issue', as: :issue
 
-  get  'users/:name' => 'users_controller#show'
+  get  'users/:name', to: 'users_controller#show', as: :show
 
-  get 'creation' => 'users_controller#user_creation'
+  get 'creation', to: 'users_controller#user_creation', as: :creation
   
-  post 'creation' => 'users_controller#create_user'
+  post 'creation', to: 'users_controller#create_user', as: :create_user
 
-  root 'static_pages#home'
+  root 'static_pages#home', as: :home
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
