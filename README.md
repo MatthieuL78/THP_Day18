@@ -1,6 +1,6 @@
 # THP_Day18
 2 projets présents :
-* je-me-presente : Le site statique.
+* je-me-presente : Site statique.
 * Backend_website : Site comprenant du backend avec creation de compte et de page perso.
 
 ## je-me-presente
