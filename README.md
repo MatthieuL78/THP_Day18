@@ -6,3 +6,9 @@
 ## je-me-presente
 
 ## Backend_website
+Siteweb comprenant :
+* Liens entre page du meme site
+* Creation de compte a l'aide d'un formulaire (input + text_area)
+* Verification et validation a la creation du compte (Refus si vide, si existe un \s ou si existe deja)
+* Redirection des pages si erreur a la creation
+* Mise en forme de page personnalise selon l'utilisateur
