@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'red_alert' => 'users_controller#creation_issue'
 
-  get  'user/:name' => 'users_controller#show'
+  get  'users/:name' => 'users_controller#show'
 
   get 'creation' => 'users_controller#user_creation'
   

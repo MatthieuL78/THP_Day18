@@ -7,7 +7,7 @@ class UsersControllerController < ApplicationController
     if @my_new_user.id.nil?
       redirect_to '/red_alert'
     else	
-      redirect_to "/user/#{@my_new_user.name}"
+      redirect_to "/users/#{@my_new_user.name}"
     end
   end
 
